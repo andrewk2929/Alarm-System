@@ -47,7 +47,7 @@ def trigger_alarm():
         set_volume_and_mute(0.0, True) # set volume to 0 and mute
         url = random.choice(sites)
         open_url(url)
-        print("ALARM")
+        # print("ALARM")
     # alarm = False
 
 while True:
